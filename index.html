@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .countries {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+      .country img {
+        width: 200px;
+      }
+      .country {
+        border: 3px solid goldenrod;
+        background-color: aquamarine;
+        border-radius: 20px;
+        padding: 20px;
+      }
+      .text{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">We visite all countries now!!! <span class="text">for with API</span></h1>
+    <div id="countries" class="countries"></div>
+    <script src="js/countries.js"></script>
+  </body>
+</html>
